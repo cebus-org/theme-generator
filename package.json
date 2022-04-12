@@ -32,7 +32,7 @@
   "devDependencies": {
     "prettier": "^2.4.1",
     "husky": "^7.0.0",
-    "@shipwreck/scripts": "^0.0.7",
+    "@shipwreck/scripts": "^0.0.8",
     "@shipwreck/eslint-plugin": "^0.0.0"
   }
 }
