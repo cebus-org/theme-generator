@@ -1,22 +1,7 @@
 {
+  "extends": "@shipwreck/scripts/src/configs/react/tsconfig.base.json",
+  "include": ["./src"],
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "noEmitOnError": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "jsx": "react",
-    "lib": ["esnext", "dom"],
-    "types": ["jest", "@types/jest"],
-    "baseUrl": ".",
     "outDir": "lib"
-  },
-  "include": ["."],
-  "exclude": ["lib/**/*", "lib-commonjs/**/*", "node_modules"]
+  }
 }
