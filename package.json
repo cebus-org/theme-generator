@@ -1,15 +1,23 @@
 {
   "name": "@calebz/react-theme-generator",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "A tool used to easily and quickly create themes.",
-  "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/czearing/theme-generator"
   },
+  "files": [
+    "/lib"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "storybook",
@@ -24,7 +32,7 @@
   "devDependencies": {
     "prettier": "^2.4.1",
     "husky": "^7.0.0",
-    "@shipwreck/scripts": "^0.0.7",
+    "@shipwreck/scripts": "^0.0.8",
     "@shipwreck/eslint-plugin": "^0.0.0"
   }
 }
