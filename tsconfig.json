@@ -18,5 +18,5 @@
     "outDir": "lib"
   },
   "include": ["."],
-  "exclude": ["lib/**/*", "node_modules"]
+  "exclude": ["lib/**/*", "lib-commonjs/**/*", "node_modules"]
 }
