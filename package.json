@@ -22,7 +22,7 @@
   "scripts": {
     "start": "storybook",
     "build": "just-scripts build",
-    "test": "test --passW`ithNoTests",
+    "test": "test --passWithNoTests",
     "test-fix": "just-scripts test-fix",
     "coverage": "just-scripts test --coverage",
     "lint": "eslint ./src",
