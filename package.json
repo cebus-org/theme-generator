@@ -1,6 +1,6 @@
 {
   "name": "@calebz/react-theme-generator",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A tool used to easily and quickly create themes.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -13,8 +13,7 @@
   "license": "MIT",
   "scripts": {
     "start": "storybook",
-    "build": "tsc --outDir lib-commonjs",
-    "bundle-size": "bundle-size measure",
+    "build": "just-scripts build",
     "test": "test --passWithNoTests",
     "test-fix": "just-scripts test-fix",
     "coverage": "just-scripts test --coverage",
@@ -22,35 +21,10 @@
     "storybook": "start-storybook",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {},
   "devDependencies": {
     "prettier": "^2.4.1",
     "husky": "^7.0.0",
-    "typescript": "^4.5.5",
-    "@types/enzyme": "3.10.9",
-    "@types/jest": "^27.0.2",
-    "@types/node": "14.14.33",
-    "@types/react-dom": "17.0.9",
-    "@types/react": "17.0.26",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-next": "^12.0.7",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-cypress": "^2.10.3",
-    "eslint-plugin-jest": "24.5.2",
-    "eslint-plugin-deprecation": "^1.3.2",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0"
-  },
-  "peerDependencies": {
-    "@types/react": ">=16.8.0 <18.0.0",
-    "@types/react-dom": ">=16.8.0 <18.0.0",
-    "react": ">=16.8.0 <18.0.0",
-    "react-dom": ">=16.8.0 <18.0.0"
+    "@shipwreck/scripts": "^0.0.7",
+    "@shipwreck/eslint-plugin": "^0.0.0"
   }
 }
