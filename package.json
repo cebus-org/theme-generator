@@ -1,6 +1,6 @@
 {
   "name": "@calebz/react-theme-generator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A tool used to easily and quickly create themes.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -13,9 +13,9 @@
   "license": "MIT",
   "scripts": {
     "start": "storybook",
-    "build": "tsc",
+    "build": "tsc --outDir lib-commonjs",
     "bundle-size": "bundle-size measure",
-    "test": "test",
+    "test": "test --passWithNoTests",
     "test-fix": "just-scripts test-fix",
     "coverage": "just-scripts test --coverage",
     "lint": "eslint ./src",
