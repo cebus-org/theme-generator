@@ -1,0 +1,44 @@
+{
+  "name": "@calebz/react-theme-generator",
+  "version": "0.0.0",
+  "description": "A tool used to easily and quickly create themes.",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czearing/theme-generator"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "storybook",
+    "build": "tsc",
+    "bundle-size": "bundle-size measure",
+    "test": "test",
+    "test-fix": "just-scripts test-fix",
+    "coverage": "just-scripts test --coverage",
+    "lint": "eslint ./src",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "husky": "^7.0.0",
+    "typescript": "^4.5.5",
+    "@types/enzyme": "3.10.9",
+    "@types/jest": "^27.0.2",
+    "@types/node": "14.14.33",
+    "@types/react-dom": "17.0.9",
+    "@types/react": "17.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2"
+  },
+  "peerDependencies": {
+    "@types/react": ">=16.8.0 <18.0.0",
+    "@types/react-dom": ">=16.8.0 <18.0.0",
+    "react": ">=16.8.0 <18.0.0",
+    "react-dom": ">=16.8.0 <18.0.0"
+  }
+}
