@@ -30,9 +30,9 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "prettier": "^2.4.1",
-    "husky": "^7.0.0",
-    "@shipwreck/scripts": "^0.0.8",
-    "@shipwreck/eslint-plugin": "^0.0.0"
+    "prettier": "2.6.2",
+    "husky": "7.0.4",
+    "@shipwreck/scripts": "0.0.8",
+    "@shipwreck/eslint-plugin": "0.0.0"
   }
 }

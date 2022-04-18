@@ -909,7 +909,7 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@shipwreck/eslint-plugin@^0.0.0":
+"@shipwreck/eslint-plugin@0.0.0":
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/@shipwreck/eslint-plugin/-/eslint-plugin-0.0.0.tgz#4f05b7c636da3be1ffa7a74a0974ca87612cb888"
   integrity sha512-pCrDQNlViuIczRjc4R+zyw+kBVG26zq8wp7lFwxU3pEfG25D2zIsj5LkFTOKdKe2XmHX0X9a/M8YRTkwovHqfQ==
@@ -929,7 +929,7 @@
     eslint-plugin-react "^7.28.0"
     eslint-plugin-react-hooks "^4.3.0"
 
-"@shipwreck/scripts@^0.0.8":
+"@shipwreck/scripts@0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@shipwreck/scripts/-/scripts-0.0.8.tgz#09fe6e0153211b12f0c5e9a9a41734f99dd8dafa"
   integrity sha512-S4tG+VdvSrqmexRApJG/qenntM5gaqjDAR8pEO2xgHr1+9/6pxnjRe/lwjakbcjFBXM+RInCzR5QgDBCStTg2A==
@@ -3983,7 +3983,7 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-husky@^7.0.0:
+husky@7.0.4:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
   integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
@@ -6406,7 +6406,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.4.1:
+prettier@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
