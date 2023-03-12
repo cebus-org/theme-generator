@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "prettier": "2.6.2",
-    "husky": "7.0.4",
+    "husky": "8.0.3",
     "@shipwreck/scripts": "0.0.8",
     "@shipwreck/eslint-plugin": "0.0.0"
   }
